@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <!-- Decorative Automaton nodes and transition line -->
+  <circle cx="150" cy="180" r="42" fill="none" stroke="#6366f1" stroke-width="8" stroke-dasharray="6 6"/>
+  <circle cx="150" cy="180" r="30" fill="#4338ca"/>
+  <circle cx="362" cy="180" r="42" fill="none" stroke="#38bdf8" stroke-width="8"/>
+  <circle cx="362" cy="180" r="34" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <circle cx="362" cy="180" r="26" fill="#0284c7"/>
+  <path d="M 195 180 Q 256 120 315 180" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="315,180 300,165 306,182 298,192" fill="#38bdf8"/>
+  <text x="256" y="140" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">a|b</text>
+  <!-- Main Sigma Symbol -->
+  <text x="256" y="375" fill="#ffffff" font-family="'Times New Roman', serif, system-ui" font-size="180" font-weight="bold" text-anchor="middle" letter-spacing="-4">∑</text>
+  <!-- Star superscript -->
+  <text x="365" y="295" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="70" font-weight="900" text-anchor="middle">*</text>
+</svg>

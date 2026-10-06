@@ -1,0 +1,6 @@
+{
+  "name": "Alphabet Permutation Generator",
+  "description": "Generate valid strings and check whether a string belongs to a regular language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
